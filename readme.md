@@ -8,7 +8,7 @@ Write a Python script to crawl property data from a Japanese real estate website
 
 ## Requirements
 
-- **Input:** A property listing URL (example: [https://www.mitsui-chintai.co.jp/rf/tatemono/10815/201](https://www.mitsui-chintai.co.jp/rf/tatemono/10815/201))
+- **Input:** A property listing URL (example: [https://rent.tokyu-housing-lease.co.jp/rent/8034884/117024](https://rent.tokyu-housing-lease.co.jp/rent/8034884/117024))
 - **Output:** Print a dictionary with the following format, filling values crawled from the URL.  
   If any field does not exist in the source, set its value to `None`.
 
@@ -264,11 +264,20 @@ Below are two images showing how to match fields from the website UI to the JSON
 <p align="center">
   <img src="images/guideline2.png" alt="Guideline 2" width="600"/>
 </p>
+<p align="center">
+  <img src="images/guideline3.png" alt="Guideline 2" width="600"/>
+</p>
+<p align="center">
+  <img src="images/guideline4.png" alt="Guideline 2" width="600"/>
+</p>
+<p align="center">
+  <img src="images/guideline5.png" alt="Guideline 2" width="600"/>
+</p>
 
 ## Example
 
 ```bash
-python result.py --url https://www.mitsui-chintai.co.jp/rf/tatemono/10815/201
+python result.py --url https://rent.tokyu-housing-lease.co.jp/rent/8034884/117024
 ```
 
 ## Submission
